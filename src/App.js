@@ -17,16 +17,16 @@ function App() {
   <Router>
     <nav>
       <h2 id="logo">BookNet</h2>
-      <Link to="/Home" className="link">Home</Link>
-      <Link to="/BookShop" className="link">BookShop</Link> 
-      <Link to="/About" className="link">Top Facts</Link>
+      <Link to="/" className="link">Home</Link>
+      <Link to="/bookshop" className="link">BookShop</Link> 
+      <Link to="/about" className="link">Top Facts</Link>
       
     </nav>
 
     <Routes>
-    <Route path ="/BookShop" element={<BookShop/>}></Route>
-      <Route path="/Home" element={<Home/>}></Route>
-      <Route path='/About' element={<About/>}></Route>
+    <Route path="/" element={<Home/>}/>
+    <Route path ="/bookshop" element={<BookShop/>}/>
+    <Route path='/about' element={<About/>}/>
       
     </Routes>
   </Router>
