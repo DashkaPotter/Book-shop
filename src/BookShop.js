@@ -21,7 +21,7 @@ return (
         <h2 className='back'>Find Your Perfect Story!  </h2>
             </div>
                 <Buttons filteredBooks={chosenBooks} />
-                <Books booksToChoose={books}/>
+                <Books booksToChoose={books} data={data} setBooks={setBooks}/>
     </div>
 );
 }
