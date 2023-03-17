@@ -20,8 +20,8 @@ return (
         <div className='cont'>
         <h2 className='back'>Find Your Perfect Story!  </h2>
             </div>
-                <Buttons filteredBooks={chosenBooks} />
-                <Books booksToChoose={books} data={data} setBooks={setBooks}/>
+                <Buttons filteredBooks={chosenBooks} data={data} setBooks={setBooks} />
+                <Books booksToChoose={books} />
     </div>
 );
 }
